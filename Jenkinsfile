@@ -13,6 +13,6 @@ node('slave1') {
       // Get the gradle tool.
       def gdlHome = tool 'grandle4'
       // Run the gradle build
-      sh "${gdlHome}/bin/gradle clean install"
+      sh "${gdlHome}/bin/gradle build"
    }
 }
